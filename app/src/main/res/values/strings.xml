@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">MaterialDesign</string>
+    <string name="总海报">http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_01small_02_201611211156DB2.jpg</string>
+    <string-array name="海报">
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_02small_04_201611211156349.jpg</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_03small_06_201611211156898.jpg</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_04small_08_201611211156D7E.jpg</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_05small_10_20161121115653A.jpg</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_06small_12_201611211156C5F.jpg</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_07small_14_201611211156316.jpg</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_08small_16_2016112111569D2.jpg</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_09small_18_2016112111561F7.jpg</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_10small_20_2016112111567AE.jpg</item>
+    </string-array>
+    <string-array name="头像">
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=ef3925513387e9504217f46a2839531b/b90e7bec54e736d17617a69a92504fc2d562691f.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=7211ac7c9582d158bb825eb7b80b19d5/b812c8fcc3cec3fd5f1b8de7df88d43f8794277e.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=b4babbad42fbfbeddc59317940f1f78e/8601a18b87d6277f703a18aa21381f30e924fc7c.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=e1c7a95f5b66d0167e19992eaf2ad498/b64543a98226cffcc60b9520b0014a90f603ea7b.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=7885d2b37b8b4710ce2ffacafbcfc3b2/0e2442a7d933c8951367b2e9d81373f082020002.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=3a8b6c528b025aafd33279cdc3ecab8d/2f738bd4b31c87014a1398742e7f9e2f0608ffff.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=63da2e0fc2ef76093c0b9e9916dca301/95eef01f3a292df58fd08687b5315c6034a87314.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=cbc1dbab2f9759ee4a5067cd8afa434e/2934349b033b5bb50ad19f583fd3d539b600bc16.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=6bbc3ae8c38065387beaa315afdca115/e4dde71190ef76c65f40448d9416fdfaae516782.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=d8a3b0bf24f5e0feee188e07646134e5/94cad1c8a786c9175782ed9fc03d70cf3ac75796.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=a79f7064bb119313c743f8b65d390c10/4ec2d5628535e5dd13cd1b797fc6a7efcf1b62b7.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=adb5a3ae1630e924cfa49b3774096e66/472309f790529822d8b38765deca7bcb0b46d490.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=6bcdf4882134349b74066983f1eb1521/77094b36acaf2edded2c5c7b841001e938019346.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=e5ef5f913cfae6cd0cb4ac6737b20f9e/b8014a90f603738ddbb3b284ba1bb051f919ec9f.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=6a882b79c71b9d168ac79d67cbdfb4eb/b03533fa828ba61eb49d71894834970a304e5920.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=8c00fd50aeefce1bea2bcfcc9750f3e8/bd3eb13533fa828bbaf12345f41f4134960a5a41.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=3241eb9fc03d70cf4cfaad0bc0ddd1ba/aa18972bd40735faabb2f71f97510fb30e2408d1.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=529f3a6b5b66d0167e19992eaf2ad498/b64543a98226cffc75530614b0014a90f603ea1f.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=0d89b597283fb80e0cd166d10ed02ffb/8cb1cb1349540923d134dad89b58d109b3de4932.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=8e79bf6c8b8ba61edfeecf29793597cc/a5c27d1ed21b0ef4249921f8d4c451da81cb3e26.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=150f259745086e066aa8384d3a097b5a/730e0cf3d7ca7bcba7d07e89b7096b63f724a8e9.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=bc91954eb53eb13544c7b0bd9e1fa8cb/d788d43f8794a4c241855e8d07f41bd5ac6e39f5.jpg</item>
+        <item>https://imgsa.baidu.com/baike/w%3D268/sign=9ba4fe1d4e10b912bfc1f1f8fbfcfcb5/43a7d933c895d143fbfe5d857af082025baf078f.jpg</item>
+    </string-array>
+    <string-array name="全身海报">
+        <item>https://imgsa.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=8c4fc76658da81cb5aeb8b9f330fbb73/d6ca7bcb0a46f21f9f2871c1ff246b600c33ae07.jpg</item>
+        <item>https://imgsa.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=cfc19e36adc27d1eb12b33967abcc60b/21a4462309f7905283dc6bac05f3d7ca7acbd564.jpg</item>
+        <item>https://imgsa.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=e1cda09a92504fc2b652b85784b48c74/d01373f082025aaf6aec5259f2edab64024f1a41.jpg</item>
+        <item>https://imgsa.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=bbd5cda53cfae6cd18b9a3336eda6441/eaf81a4c510fd9f9fbd479fb2c2dd42a2934a464.jpg</item>
+        <item>https://imgsa.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=45df6c64aeefce1bfe26c098ce3898bb/024f78f0f736afc3ac0110f7ba19ebc4b7451216.jpg</item>
+        <item>https://imgsa.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=52648e4cf91f3a294ec5dd9cf84cd754/42a98226cffc1e1754b2a3a34390f603738de917.jpg</item>
+    </string-array>
 </resources>

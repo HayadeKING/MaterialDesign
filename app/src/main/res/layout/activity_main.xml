@@ -7,12 +7,6 @@
     android:orientation="vertical"
     tools:context="com.example.administrator.materialdesign_demo_20170221.MainActivity">
 
-    <!--<LinearLayout
-        android:id="@+id/linear_statusbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"></LinearLayout>-->
-
     <android.support.v4.widget.DrawerLayout
         android:id="@+id/drawerlayout"
         android:layout_width="match_parent"
@@ -24,75 +18,54 @@
             android:background="@color/colorPrimaryDark"
             android:fitsSystemWindows="true">
 
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:background="?attr/colorPrimary"
-                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/circleimage"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="left" />
-
-            </android.support.v7.widget.Toolbar>
-
             <android.support.design.widget.CoordinatorLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/toolbar"
                 android:background="@color/white">
 
-                <android.support.v7.widget.CardView
+                <android.support.design.widget.AppBarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="?attr/colorPrimary"
+                        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                        app:layout_scrollFlags="scroll|enterAlways|snap"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/circleimage"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="left" />
+
+                    </android.support.v7.widget.Toolbar>
+
+                </android.support.design.widget.AppBarLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerview_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    app:cardCornerRadius="5dp"
-                    app:cardElevation="2dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:id="@+id/card_image"
-                            android:layout_width="match_parent"
-                            android:layout_height="300dp"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/note"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="MaterialDesign"
-                            android:layout_gravity="center"
-                            android:textSize="20sp"/>
-
-                    </LinearLayout>
-
-
-
-                </android.support.v7.widget.CardView>
+                    android:scrollbars="none"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:overScrollMode="never"></android.support.v7.widget.RecyclerView>
 
                 <android.support.design.widget.FloatingActionButton
                     android:id="@+id/floatingbutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/empty"
                     android:layout_centerInParent="true"
-                    app:backgroundTint="@color/colorPrimary"
-                    app:rippleColor="@color/colorAccent"
-                    app:elevation="6dp"
-                    app:pressedTranslationZ="12dp"
                     android:layout_gravity="bottom|right"
                     android:layout_margin="20dp"
-                    />
+                    android:src="@drawable/empty"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:elevation="6dp"
+                    app:pressedTranslationZ="12dp"
+                    app:rippleColor="@color/colorAccent" />
 
             </android.support.design.widget.CoordinatorLayout>
 
@@ -104,13 +77,6 @@
             android:layout_gravity="left"
             android:background="@color/white"
             android:orientation="vertical">
-
-            <!--<LinearLayout
-                android:id="@+id/drawer_statusbar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                ></LinearLayout>-->
 
             <android.support.design.widget.NavigationView
                 android:id="@+id/nav_view"

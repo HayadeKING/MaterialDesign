@@ -10,6 +10,9 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -23,16 +26,18 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.administrator.materialdesign_demo_20170221.adapter.RecyclerAdapter;
 
+import java.lang.reflect.Array;
 import java.lang.reflect.Field;
+import java.util.Arrays;
+import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
-
-    private LinearLayout linear_statusbar, drawer_statusbar;
 
     private DrawerLayout drawerLayout;
 
@@ -44,7 +49,9 @@ public class MainActivity extends AppCompatActivity {
 
     private FloatingActionButton floatingActionButton;
 
-    private ImageView header_back, card_image;
+    private ImageView header_back;
+
+    private RecyclerView recyclerView1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,37 +70,29 @@ public class MainActivity extends AppCompatActivity {
     private void initView(){
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        /*ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("");*/
-        /*linear_statusbar = (LinearLayout) findViewById(R.id.linear_statusbar);
-        ViewGroup.LayoutParams layoutParams = linear_statusbar.getLayoutParams();
-        layoutParams.height = getStatusBarHeight();
-        linear_statusbar.setLayoutParams(layoutParams);
-        linear_statusbar.setBackgroundColor(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDark));*/
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerlayout);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
-            /*actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setHomeAsUpIndicator(R.drawable.home_red);*/
             actionBar.setTitle("");
         }
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setCheckedItem(R.id.nav_call);
-        /*drawer_statusbar = (LinearLayout) findViewById(R.id.drawer_statusbar);
-        ViewGroup.LayoutParams layoutParams1 = drawer_statusbar.getLayoutParams();
-        layoutParams1.height = getStatusBarHeight();
-        drawer_statusbar.setLayoutParams(layoutParams1);
-        drawer_statusbar.setBackgroundColor(ContextCompat.getColor(MainActivity.this, R.color.colorAccent));*/
         headerLayout = navigationView.getHeaderView(0);
         circleImage = (CircleImageView) headerLayout.findViewById(R.id.icon_image);
-        Glide.with(this).load("http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_08small_16_2016112111569D2.jpg").into(circleImage);
+        Glide.with(this).load("https://imgsa.baidu.com/baike/w%3D268/sign=a79f7064bb119313c743f8b65d390c10/4ec2d5628535e5dd13cd1b797fc6a7efcf1b62b7.jpg").into(circleImage);
         header_back = (ImageView) headerLayout.findViewById(R.id.back_image);
-        Glide.with(this).load("https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=708750801,3253211594&fm=23&gp=0.jpg").into(header_back);
+        Glide.with(this).load("http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_04small_08_201611211156D7E.jpg").into(header_back);
         circleImageView1 = (CircleImageView) findViewById(R.id.circleimage);
-        Glide.with(this).load("http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_08small_16_2016112111569D2.jpg").into(circleImageView1);
+        Glide.with(this).load("https://imgsa.baidu.com/baike/w%3D268/sign=a79f7064bb119313c743f8b65d390c10/4ec2d5628535e5dd13cd1b797fc6a7efcf1b62b7.jpg").into(circleImageView1);
         floatingActionButton = (FloatingActionButton) findViewById(R.id.floatingbutton);
-        card_image = (ImageView) findViewById(R.id.card_image);
-        Glide.with(this).load("http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_08small_16_2016112111569D2.jpg").into(card_image);
+        recyclerView1 = (RecyclerView) findViewById(R.id.recyclerview_view);
+        /*对第一个RecyclerView进行适配*/
+        StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
+        recyclerView1.setLayoutManager(layoutManager);
+        String[] attr = getResources().getStringArray(R.array.海报);
+        List<String> list1 = Arrays.asList(attr);
+        RecyclerAdapter adapter1 = new RecyclerAdapter(this, list1);
+        recyclerView1.setAdapter(adapter1);
     }
 
     private void initAction(){
