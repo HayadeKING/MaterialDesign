@@ -2,15 +2,15 @@
     <string name="app_name">MaterialDesign</string>
     <string name="总海报">http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_01small_02_201611211156DB2.jpg</string>
     <string-array name="海报">
-        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_02small_04_201611211156349.jpg</item>
-        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_03small_06_201611211156898.jpg</item>
-        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_04small_08_201611211156D7E.jpg</item>
-        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_05small_10_20161121115653A.jpg</item>
-        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_06small_12_201611211156C5F.jpg</item>
-        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_07small_14_201611211156316.jpg</item>
-        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_08small_16_2016112111569D2.jpg</item>
-        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_09small_18_2016112111561F7.jpg</item>
-        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_10small_20_2016112111567AE.jpg</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_02small_04_201611211156349.jpg//wang黑子哲也</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_03small_06_201611211156898.jpg//wang火神大我</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_04small_08_201611211156D7E.jpg//wang赤司征十郎</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_05small_10_20161121115653A.jpg//wang青峰大辉</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_06small_12_201611211156C5F.jpg//wang绿间真太郎</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_07small_14_201611211156316.jpg//wang黄濑凉太</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_08small_16_2016112111569D2.jpg//wang紫原敦</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_09small_18_2016112111561F7.jpg//wang贾森.锡伯</item>
+        <item>http://img1.gamersky.com/image2016/11/20161121_lr_176_1/gamersky_10small_20_2016112111567AE.jpg//wang纳什.戈尔多</item>
     </string-array>
     <string-array name="头像">
         <item>https://imgsa.baidu.com/baike/w%3D268/sign=ef3925513387e9504217f46a2839531b/b90e7bec54e736d17617a69a92504fc2d562691f.jpg</item>

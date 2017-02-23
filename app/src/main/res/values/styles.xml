@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="button_style" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="colorControlHighlight">@color/gray</item>
+    </style>
+
+    <style name="welcome" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/note</item>
+    </style>
+
 </resources>
